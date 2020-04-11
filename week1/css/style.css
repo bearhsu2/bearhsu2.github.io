@@ -79,10 +79,12 @@ table {
 .title-ch{
 	font-size: 32px;
 	margin-right: 16px;
+	font-family: PingFang SC;
 }
 .title-en{
 	font-size: 24px;
 	color: darkred;
+	font-family: Roboto Mono;
 }
 
 .middle{
@@ -97,5 +99,5 @@ table {
 }
 
 .content{
-	border-top: 1px solid black;
+	border-top: 1px solid darkgray;
 }
