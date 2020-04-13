@@ -101,6 +101,7 @@ table {
   max-width: 1200px;
   margin: 0 auto;
   padding: 16px 0 16px 32px;
+  border-top: 1px solid black;
 }
 .education{
 	/* 讓偽元素以 ul 作為定位點，因此 ul 需要設定為“相對位置” */
