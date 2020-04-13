@@ -63,7 +63,7 @@ table {
 
 .picture{
 	padding-top: 48px;
-	border-top: 1px solid darkgrey;
+	border-top: 1px solid black;
 	margin-bottom: 48px;
 }
 
@@ -76,15 +76,13 @@ table {
 	line-height: 45px;
 
 }
-.title-ch{
+.title .ch{
 	font-size: 32px;
 	margin-right: 16px;
-	font-family: PingFang SC;
 }
-.title-en{
+.title .en{
 	font-size: 24px;
 	color: darkred;
-	font-family: Roboto Mono;
 }
 
 .middle{
@@ -98,6 +96,40 @@ table {
 	margin-right:  auto;
 }
 
-.content{
-	border-top: 1px solid darkgray;
+
+.list{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 0 16px 32px;
 }
+.education{
+	/* 讓偽元素以 ul 作為定位點，因此 ul 需要設定為“相對位置” */
+	position: relative;
+}
+.education-item{
+  margin-bottom: 32px;
+}
+.education-item:before{
+  content: "";
+	/* 偽元素需設定成“絕對位置” */
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #96A9C4;
+  border-radius: 50%;
+  left: -32px;
+}
+.timeLine:after{
+  content: "";
+	/* 偽元素需設定成“絕對位置” */
+  position: absolute;
+  border-left: 1px solid #96A9C4;
+  /* 一定要加上 top, bottom 的值，線條才會有高度 */
+	/* 設定 top 0px, bottom 0px 就會剛好撐滿整個 ul 的高度 */
+  top: 0px;
+  bottom: 0px;
+	/* 為了要讓線條對準圓心，因此需往左 16（圓圈和文字之間的距離）+ 8（圓圈的半徑）= 24px */
+  left: -24px;
+}
+
+
