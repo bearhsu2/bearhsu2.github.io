@@ -148,9 +148,18 @@ table {
 
 .skills {
 	background-color: #415165;
-	height: 500px;
+	padding-top: 24px;
+	padding-bottom: 56px;
 	text-align: center;
 	color: white;
+}
+
+
+.skills-content{
+	center;
+	text-align: left;
+	border-top: 1px solid white;
+
 }
 
 
