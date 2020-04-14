@@ -114,7 +114,8 @@ table {
 }
 
 .list-item{
-	font-size: 24px;
+  font-size: 24px;
+  font-weight: lighter;
   margin-bottom: 32px;
   line-height: 35px;
 }
