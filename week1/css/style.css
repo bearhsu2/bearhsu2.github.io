@@ -181,10 +181,27 @@ table {
 
 
 .standalone-list-item{
-	font-size: 24px;
+  font-size: 24px;
   margin-bottom: 32px;
-  line-height: 35px;
+  line-height: 36px;
 }
+
+.description{
+	margin-bottom: 24px;
+}
+
+.description img{
+	display: block;
+	margin-bottom: 8.15px;
+}
+
+.description p{
+	width: 642px;
+	font-size: 20px;
+	line-height:32px;
+}
+
+
 
 
 
