@@ -71,6 +71,10 @@ table {
 	display: block;
 }
 
+.v-container{
+	margin-bottom: 72px;
+}
+
 .title{
 	margin-bottom: 8px;
 	line-height: 45px;
@@ -90,7 +94,7 @@ table {
 }
 
 
-.container {
+.h-container {
 	width: 1200px;
 	margin-left:  auto;
 	margin-right:  auto;
@@ -100,7 +104,6 @@ table {
 .list-wrap{
   padding: 16px 0 16px 32px;
   border-top: 1px solid black;
-  margin-bottom: 72px;
 }
 .list{
 	/* 讓偽元素以 ul 作為定位點，因此 ul 需要設定為“相對位置” */
