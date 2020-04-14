@@ -127,8 +127,8 @@ table {
   border-left: 1px solid #96A9C4;
   /* 一定要加上 top, bottom 的值，線條才會有高度 */
 	/* 設定 top 0px, bottom 0px 就會剛好撐滿整個 ul 的高度 */
-  top: 8px;
-  bottom: 8px;
+  top: 11px;
+  bottom: 11px;
 	/* 為了要讓線條對準圓心，因此需往左 16（圓圈和文字之間的距離）+ 8（圓圈的半徑）= 24px */
   left: -24px;
 }
