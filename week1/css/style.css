@@ -155,11 +155,27 @@ table {
 }
 
 
-.skills-content{
-	center;
-	text-align: left;
+.skills-content-outer {
+	width: 996px;
+	padding-top: 40px;
+	margin: 0px auto 56px auto;
 	border-top: 1px solid white;
-
+	
 }
+
+.skills-content-inner {
+	width: 250px;
+	margin: 0 auto;
+	text-align: left;
+	border-left: 1px solid white;
+}
+
+.skills-content-inner p{
+	line-height: 32px;
+	margin-bottom:16px;
+	font-size: 24px;
+	text-indent: 24px;
+}
+
 
 
