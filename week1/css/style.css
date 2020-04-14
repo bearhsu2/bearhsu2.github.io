@@ -186,16 +186,14 @@ table {
   line-height: 36px;
 }
 
-.description{
-	margin-bottom: 24px;
-}
 
 .description img{
 	display: block;
-	margin-bottom: 8px;
+	margin: 8px 0;
 }
 
 .description p{
+	font-weight: lighter;
 	width: 642px;
 	font-size: 20px;
 	line-height:32px;
