@@ -112,11 +112,13 @@ table {
 	/* 讓偽元素以 ul 作為定位點，因此 ul 需要設定為“相對位置” */
 	position: relative;
 }
+
 .list-item{
 	font-size: 24px;
   margin-bottom: 32px;
   line-height: 35px;
 }
+
 .list-item:before{
   content: "";
 	/* 偽元素需設定成“絕對位置” */
@@ -175,6 +177,13 @@ table {
 	margin-bottom:16px;
 	font-size: 24px;
 	text-indent: 24px;
+}
+
+
+.standalone-list-item{
+	font-size: 24px;
+  margin-bottom: 32px;
+  line-height: 35px;
 }
 
 
