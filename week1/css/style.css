@@ -110,6 +110,7 @@ table {
   line-height: 35px;
 }
 .education-item:before{
+	margin-top:11px;
   content: "";
 	/* 偽元素需設定成“絕對位置” */
   position: absolute;
