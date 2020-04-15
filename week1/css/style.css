@@ -155,13 +155,25 @@ table {
 	padding-bottom: 56px;
 	text-align: center;
 	color: white;
+	position: relative;
 }
 
+/* 用偽元素做背景的方塊 */
+.skills:after {
+  content: "";
+	position: absolute;
+	background-color: #96A9C4;
+	z-index: -1;
+	height: 360px;
+	width: 999999px;
+	left: -999px;
+	top: 69px;
+}
 
 .skills-content-outer {
 	width: 996px;
 	padding-top: 40px;
-	margin: 0px auto 56px auto;
+	margin: 0px auto;
 	border-top: 1px solid white;
 	
 }
