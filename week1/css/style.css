@@ -202,6 +202,32 @@ table {
 }
 
 
+.footer{
+	background-color: #415165;
+	padding-top: 24px;
+	padding-bottom:48px;
+	text-align: center;
+	color: white;
+	
+}
+
+.footer-content{
+	padding-top: 32px;
+	border-top: 1px solid white;
+}
+
+.footer-content p {
+	font-size: 24px;
+	line-height:33px;
+	margin-bottom: 16px;
+	font-weight: lighter;
+}
+
+.spacer24{
+	margin-right: 24px;
+}
+
+
 
 
 
