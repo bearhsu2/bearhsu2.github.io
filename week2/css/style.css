@@ -44,4 +44,52 @@ table {
 
 * {
     box-sizing: border-box;
-} 
+}
+
+.header {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    width: 340px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 100px;
+}
+
+.header-content .subtitle {
+    font: Bold Italic 24px Roboto;
+    line-height: 28px;
+}
+
+.header-content h1 {
+    font: Bold Italic 80px Roboto;
+    line-height: 94px;
+    margin-bottom: 32px;
+}
+
+.header-content h2 {
+    width: 330px;
+    margin: 0 auto;
+    font: Bold Italic 24px Roboto;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+
+.header-content ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    text-align: center;
+    background-color: grey;
+    padding-top: 30px;
+    height: 200px;
+}
