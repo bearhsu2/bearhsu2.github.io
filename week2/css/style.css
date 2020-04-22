@@ -58,7 +58,6 @@ table {
 
 .header-content {
     width: 340px;
-    margin: 0 auto;
     color: white;
     padding-top: 100px;
 }
@@ -76,10 +75,9 @@ table {
 
 .header-content h2 {
     width: 330px;
-    margin: 0 auto;
+    margin: 0 auto 48px auto;
     font: Bold Italic 24px Roboto;
     line-height: 42px;
-    margin-bottom: 48px;
 }
 
 .header-content ul {
