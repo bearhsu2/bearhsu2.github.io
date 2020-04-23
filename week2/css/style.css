@@ -103,11 +103,11 @@ table {
 
 .about p {
     font: Bold Italic 24px Roboto;
-    line-height: 42px;
+    line-height: 36px;
 }
 
 .about-school {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .about-experience {
@@ -121,9 +121,22 @@ table {
     font: Bold Italic 24px Roboto;
     line-height: 28px;
     margin-bottom: 32px;
+    position: relative;
+}
+
+.about-experience li:before {
+    content: "";
+    position: absolute;
+    background-color: #891818;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-left: -38px;
+    font: Bold Italic 24px Roboto;
 }
 
 .footer {
+    width: 1920px;
     text-align: center;
     background-color: grey;
     padding-top: 30px;
