@@ -202,7 +202,6 @@ table {
     margin: 0 auto;
 }
 
-
 .works-items-wrapper {
     display: flex;
     justify-content: space-between;
@@ -225,7 +224,20 @@ table {
 .footer {
     width: 1920px;
     text-align: center;
-    background-color: grey;
-    padding-top: 30px;
-    height: 200px;
+    background-color: black;
+    padding-top: 64px;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.footer h2 {
+    font: Italic 64px Roboto;
+    line-height: 75px;
+    margin-bottom: 16px;
+}
+
+.footer p {
+    font: Italic 24px Roboto;
+    line-height: 36px;
+    margin-bottom: 16px;
 }
