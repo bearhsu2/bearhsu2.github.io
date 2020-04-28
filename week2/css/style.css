@@ -139,8 +139,10 @@ table {
     width: 1920px;
     text-align: center;
     padding-top: 64px;
+    padding-bottom: 160px;
     background-color: black;
     color: white;
+
 }
 
 .brand h2 {
@@ -151,14 +153,29 @@ table {
 
 .brand h3 {
     font: Italic 24px Roboto;
-    line-height: 28px;
-    margin-bottom: 16px;
+    line-height: 42px;
+    /* margin-bottom: 16px; */
 }
 
 .brand p {
     font: Italic 20px Roboto;
     line-height: 42px;
-    /* margin-bottom: 16px; */
+    margin-bottom: 48px;
+}
+
+.brand-images {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.brand .center {
+    justify-content: center;
+}
+
+.brand .space-between {
+    justify-content: space-between;
 }
 
 .footer {
