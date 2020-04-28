@@ -177,7 +177,12 @@ table {
 .works {
     background-image: url(../img/photo-1561291386-5be50364cfb5.png);
     background-repeat: no-repeat;
+    background-position: bottom;
     width: 1920px;
+    /* height: 2200px; */
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 162px;
 }
 
 .works h2 {
@@ -197,12 +202,6 @@ table {
     margin: 0 auto;
 }
 
-.works {
-    text-align: center;
-    padding-top: 64px;
-}
-
-.works h2 {}
 
 .works-items-wrapper {
     display: flex;
