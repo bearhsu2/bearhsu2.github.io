@@ -142,7 +142,6 @@ table {
     padding-bottom: 160px;
     background-color: black;
     color: white;
-
 }
 
 .brand h2 {
@@ -175,10 +174,53 @@ table {
     justify-content: space-between;
 }
 
+.works {
+    background-image: url(../img/photo-1561291386-5be50364cfb5.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+}
+
+.works h2 {
+    font: Italic 64px Roboto;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+
+.works p {
+    font: Italic 20px Roboto;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
 
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.works {
+    text-align: center;
+    padding-top: 64px;
+}
+
+.works h2 {}
+
+.works-items-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works-item {
+    color: white;
+}
+
+.works-item img {
+    margin-bottom: 16px;
+}
+
+.works-item h3 {
+    margin-bottom: 56px;
+    font: Italic 20px Roboto;
+    line-height: 28px;
 }
 
 .footer {
