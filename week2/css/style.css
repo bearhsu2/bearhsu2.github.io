@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* === */
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    width: 340px;
+    color: white;
+    padding-top: 100px;
+}
+
+.header-content .subtitle {
+    font: Bold Italic 24px Roboto;
+    line-height: 28px;
+}
+
+.header-content h1 {
+    font: Bold Italic 80px Roboto;
+    line-height: 94px;
+    margin-bottom: 32px;
+}
+
+.header-content h2 {
+    margin: 0 auto 48px auto;
+    font: Bold Italic 24px Roboto;
+    line-height: 42px;
+}
+
+.header-content ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about {
+    width: 1920px;
+    height: 991px;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.about h2 {
+    font: Italic 64px Roboto;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+
+.about img {
+    margin-bottom: 24px;
+}
+
+.about p {
+    font: Bold Italic 24px Roboto;
+    line-height: 36px;
+}
+
+.about-school {
+    margin-bottom: 20px;
+}
+
+.about-experience {
+    margin: 0 auto;
+    padding-top: 32px;
+    width: 384px;
+    border-top: 1px solid #000;
+}
+
+.about-experience li {
+    font: Bold Italic 24px Roboto;
+    line-height: 28px;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.about-experience li:before {
+    content: "";
+    position: absolute;
+    background-color: #891818;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-left: -38px;
+    font: Bold Italic 24px Roboto;
+}
+
+.brand {
+    width: 1920px;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 160px;
+    background-color: black;
+    color: white;
+}
+
+.brand h2 {
+    font: Italic 64px Roboto;
+    line-height: 75px;
+    margin-bottom: 16px;
+}
+
+.brand h3 {
+    font: Italic 24px Roboto;
+    line-height: 42px;
+}
+
+.brand p {
+    font: Italic 20px Roboto;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+
+.brand-images {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.brand .center {
+    justify-content: center;
+}
+
+.brand .space-between {
+    justify-content: space-between;
+}
+
+.works {
+    background-image: url(../img/photo-1561291386-5be50364cfb5.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1920px;
+    /* height: 2200px; */
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 162px;
+}
+
+.works h2 {
+    font: Italic 64px Roboto;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+
+.works p {
+    font: Italic 20px Roboto;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.works-items-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works-item {
+    color: white;
+}
+
+.works-item img {
+    margin-bottom: 16px;
+}
+
+.works-item h3 {
+    margin-bottom: 56px;
+    font: Italic 20px Roboto;
+    line-height: 28px;
+}
+
+.footer {
+    width: 1920px;
+    text-align: center;
+    background-color: black;
+    padding-top: 64px;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.footer h2 {
+    font: Italic 64px Roboto;
+    line-height: 75px;
+    margin-bottom: 16px;
+}
+
+.footer p {
+    font: Italic 24px Roboto;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
