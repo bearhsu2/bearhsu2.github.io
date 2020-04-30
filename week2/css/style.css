@@ -49,7 +49,7 @@ table {
 .header {
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
-    width: 1920px;
+    max-width: 1920px;
     height: 960px;
     display: flex;
     justify-content: center;
@@ -85,8 +85,7 @@ table {
 }
 
 .about {
-    width: 1920px;
-    height: 991px;
+    max-width: 1920px;
     text-align: center;
     padding-top: 64px;
 }
@@ -136,7 +135,7 @@ table {
 }
 
 .brand {
-    width: 1920px;
+    max-width: 1920px;
     text-align: center;
     padding-top: 64px;
     padding-bottom: 160px;
@@ -178,8 +177,7 @@ table {
     background-image: url(../img/photo-1561291386-5be50364cfb5.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    width: 1920px;
-    /* height: 2200px; */
+    max-width: 1920px;
     text-align: center;
     padding-top: 64px;
     padding-bottom: 162px;
@@ -222,7 +220,7 @@ table {
 }
 
 .footer {
-    width: 1920px;
+    max-width: 1920px;
     text-align: center;
     background-color: black;
     padding-top: 64px;
