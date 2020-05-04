@@ -62,11 +62,13 @@ img {
 }
 
 .header ul {
+    width: 30%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header ul li a {
-    padding: 0px 32px;
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -74,8 +76,8 @@ img {
 
 .container {
     max-width: 1200px;
+    margin: 0 auto;
 }
-
 
 .footer {
     background-color: #aa0601;
@@ -84,4 +86,35 @@ img {
 
 .footer .container {
     padding: 48px 25px 28px 25px;
+}
+
+.footer .menu-and-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .menu-and-social .menu {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer .menu-and-social .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer .menu-and-social .social {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer .menu-and-social .social a {
+    text-decoration: none;
+    color: white;
 }
