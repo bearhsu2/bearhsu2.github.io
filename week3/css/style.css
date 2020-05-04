@@ -53,18 +53,13 @@ img {
 
 /* ================================================================ */
 
-
 .header {
     background-color: #aa0601;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 30px 88px;
-
 }
-
 
 .header ul {
     display: flex;
@@ -75,4 +70,17 @@ img {
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+
+.footer {
+    background-color: #aa0601;
+}
+
+.footer .container {
+    padding: 48px 25px 28px 25px;
 }
