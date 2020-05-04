@@ -58,7 +58,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 88px;
+    padding: 0 88px;
 }
 
 .header ul {
@@ -68,10 +68,13 @@ img {
     align-items: center;
 }
 
+
 .header ul li a {
+    padding: 40px 0;
     text-decoration: none;
     color: white;
     font-size: 20px;
+    display: block;
 }
 
 .container {
@@ -112,9 +115,4 @@ img {
     width: 15%;
     justify-content: space-between;
     align-content: center;
-}
-
-.footer .menu-and-social .social a {
-    text-decoration: none;
-    color: white;
 }
