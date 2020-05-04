@@ -68,7 +68,7 @@ img {
 .header ul li a {
     padding: 0px 32px;
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-size: 20px;
 }
 
@@ -79,6 +79,7 @@ img {
 
 .footer {
     background-color: #aa0601;
+    color: white;
 }
 
 .footer .container {
