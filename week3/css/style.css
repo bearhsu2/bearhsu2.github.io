@@ -54,6 +54,7 @@ img {
 /* ================================================================ */
 
 .header {
+    position: relative;
     background-color: #aa0601;
     display: flex;
     justify-content: space-between;
@@ -61,20 +62,53 @@ img {
     padding: 0 88px;
 }
 
-.header ul {
+.header .menu {
     width: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-.header ul li a {
+.header .menu li a {
     padding: 40px 0;
     text-decoration: none;
     color: white;
     font-size: 20px;
     display: block;
+}
+
+.ham-icon {
+    position: absolute;
+    left: 13px;
+    color: #FFFFFF;
+}
+
+.dropdown {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    max-height: 0px;
+    transition: all 0.8s;
+    overflow: hidden;
+    z-index: 120;
+}
+
+.dropdown.active {
+    max-height: 200px;
+}
+
+.dropdown li a {
+    display: block;
+    background: #AA0601;
+    color: #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    padding: 16px 0;
+    text-decoration: none;
+}
+
+.dropdown li a:hover {
+    background: #8f0400;
 }
 
 .container {

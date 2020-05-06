@@ -6,14 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glasses</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- 載入 jQ 核心 -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <!-- 自己整理的 all.js，包含選單跟 FAQ -->
+    <script src="js/all.js"></script>
+
 </head>
 
 <body>
 
     <div class="header">
+        <a href="#" class="ham-icon">
+            <img src="img/ic_menu_24px.svg" alt="">
+        </a>
+
         <h1><img src="img/component.png" alt=""></h1>
 
-        <ul>
+        <ul class="menu">
+            <li><a href="#">系列鏡框</a></li>
+            <li><a href="#">門市據點</a></li>
+            <li><a href="#">部落格</a></li>
+            <li><a href="#">常見問題</a></li>
+        </ul>
+
+        <ul class="dropdown">
             <li><a href="#">系列鏡框</a></li>
             <li><a href="#">門市據點</a></li>
             <li><a href="#">部落格</a></li>
