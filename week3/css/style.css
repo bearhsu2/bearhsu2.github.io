@@ -81,6 +81,9 @@ img {
     position: absolute;
     left: 13px;
     color: #FFFFFF;
+
+
+    display: none;
 }
 
 .dropdown {
