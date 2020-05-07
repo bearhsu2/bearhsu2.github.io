@@ -81,8 +81,6 @@ img {
     position: absolute;
     left: 13px;
     color: #FFFFFF;
-
-
     display: none;
 }
 
@@ -152,4 +150,31 @@ img {
     width: 15%;
     justify-content: space-between;
     align-content: center;
+}
+
+.footer .phone {
+    display: flex;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+.footer .phone img {
+    margin-right: 22px;
+}
+
+.footer .email {
+    display: flex;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.footer .email img {
+    margin-right: 12px;
+}
+
+.footer .copyright-and-privacy {
+    border-top: 1px solid white;
+    padding: 24px 0;
 }
