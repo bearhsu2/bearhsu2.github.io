@@ -200,15 +200,15 @@ img {
     width: 25%;
     display: flex;
     justify-content: space-between;
-    align-content: center;
+
 }
 
 .footer .copyright-and-privacy .privacy li {
-    font-size: 16px;
     margin: auto;
 }
 
 .footer .copyright-and-privacy .privacy li a {
     text-decoration: none;
     color: white;
+    font-size: 16px;
 }
