@@ -147,7 +147,7 @@ img {
 
 .footer .menu-and-social .social {
     display: flex;
-    width: 15%;
+    width: 18%;
     justify-content: space-between;
     align-content: center;
 }
@@ -177,4 +177,38 @@ img {
 .footer .copyright-and-privacy {
     border-top: 1px solid white;
     padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer .copyright-and-privacy .copyright {
+    display: flex;
+    align-content: center;
+}
+
+.footer .copyright-and-privacy .copyright img {
+    margin-right: 38px;
+}
+
+.footer .copyright-and-privacy .copyright p {
+    font-size: 16px;
+    margin: auto;
+}
+
+.footer .copyright-and-privacy .privacy {
+    width: 40%;
+    display: flex;
+    /* align-content: center; */
+}
+
+.footer .copyright-and-privacy .privacy li {
+    display: flex;
+}
+
+.footer .copyright-and-privacy .privacy li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: auto;
 }
