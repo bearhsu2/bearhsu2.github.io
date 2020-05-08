@@ -197,18 +197,20 @@ img {
 }
 
 .footer .copyright-and-privacy .privacy {
-    width: 40%;
+    width: 20%;
     display: flex;
-    /* align-content: center; */
+    justify-content: space-between;
+    align-content: center;
 }
 
 .footer .copyright-and-privacy .privacy li {
-    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: auto;
 }
 
 .footer .copyright-and-privacy .privacy li a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
-    margin: auto;
 }
