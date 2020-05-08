@@ -78,6 +78,15 @@ img {
     }
 }
 
+@media (max-width: 767px) {
+    .header {
+        padding: 0 23px;
+    }
+    .header .menu {
+        display: none;
+    }
+}
+
 .header .menu li a {
     padding: 40px 0;
     text-decoration: none;
