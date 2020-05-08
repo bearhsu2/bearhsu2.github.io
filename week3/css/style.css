@@ -63,10 +63,19 @@ img {
 }
 
 .header .menu {
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 992px) {
+    .header {
+        padding: 0 48px;
+    }
+    .header .menu {
+        width: 60%
+    }
 }
 
 .header .menu li a {
@@ -200,7 +209,6 @@ img {
     width: 25%;
     display: flex;
     justify-content: space-between;
-
 }
 
 .footer .copyright-and-privacy .privacy li {
