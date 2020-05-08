@@ -80,7 +80,8 @@ img {
 
 @media (max-width: 767px) {
     .header {
-        padding: 0 23px;
+        padding: 10px 23px;
+        justify-content: center;
     }
     .header .menu {
         display: none;
@@ -100,6 +101,12 @@ img {
     left: 13px;
     color: #FFFFFF;
     display: none;
+}
+
+@media (max-width: 767px) {
+    .ham-icon {
+        display: block;
+    }
 }
 
 .dropdown {
