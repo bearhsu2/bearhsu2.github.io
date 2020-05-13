@@ -151,7 +151,6 @@ img {
     color: #650300;
 }
 
-
 .banner .banner-content {
     height: 100%;
     display: flex;
@@ -168,6 +167,17 @@ img {
 .banner h2 {
     font-size: 64px;
     line-height: 90px;
+}
+
+@media (max-width: 992px) {
+    .banner p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .banner h2 {
+        font-size: 48px;
+        line-height: 67px;
+    }
 }
 
 .footer {
