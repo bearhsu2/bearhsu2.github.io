@@ -142,6 +142,34 @@ img {
     margin: 0 auto;
 }
 
+.banner {
+    background-image: url(../img/68.png);
+    height: 840px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #650300;
+}
+
+
+.banner .banner-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: end;
+}
+
+.banner p {
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.banner h2 {
+    font-size: 64px;
+    line-height: 90px;
+}
+
 .footer {
     background-color: #aa0601;
     color: white;
