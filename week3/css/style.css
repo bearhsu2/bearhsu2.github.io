@@ -220,10 +220,11 @@ img {
 }
 
 .feature .feature-content li {
+    padding: 35px;
     width: 23.5%;
 }
 
-.feature .feature-content img {
+.feature .feature-content li img {
     margin: 0 auto 40px auto;
 }
 
@@ -237,7 +238,35 @@ img {
 .feature .feature-content li p {
     font-size: 16px;
     line-height: 24px;
+    color: black;
 }
+
+@media (max-width: 992px) {
+    .feature h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .feature .feature-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .feature .feature-content li {
+        width: 50%;
+    }
+    .feature .feature-content li img {
+        width: 80px;
+    }
+    .feature .feature-content li h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .feature .feature-content li p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 767px) {}
 
 .footer {
     background-color: #aa0601;
