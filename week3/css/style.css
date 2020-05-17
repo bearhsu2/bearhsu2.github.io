@@ -148,13 +148,13 @@ img {
 
 @media (max-width: 992px) {
     .container {
-        max-width: 896px;
+        max-width: 850px;
     }
 }
 
 @media (max-width: 767px) {
     .container {
-        max-width: 744px;
+        max-width: 720px;
     }
 }
 
@@ -392,6 +392,23 @@ img {
 
 .padding-side-16 {
     padding: 0 16px;
+}
+
+@media (max-width: 992px) {
+    .recommend h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .recommend-content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .recommend-content-item {
+        width: 45%;
+    }
+    .recommend-content-item img {
+        width: 100%;
+    }
 }
 
 .footer {
