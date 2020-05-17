@@ -351,6 +351,41 @@ img {
     }
 }
 
+.designer {
+    height: 800px;
+    background-color: yellow;
+}
+
+.recommend-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend-content-item {
+    width: 23%;
+    border: 1px solid;
+}
+
+.recommend-content-item {
+    width: 23%;
+    border: 1px solid;
+}
+
+.bold {
+    font-weight: bold;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.grey {
+    color: grey;
+}
+
+.padding-side-16 {
+    padding: 0 16px;
+}
+
 .footer {
     background-color: #aa0601;
     color: white;
