@@ -276,6 +276,32 @@ img {
     }
 }
 
+.classic {
+    padding: 64px 0 80px 0;
+    color: #650300;
+}
+
+.classic h2 {
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.classic-content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.classic-content-item h3 {
+    width: 100%;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+}
+
 .footer {
     background-color: #aa0601;
     color: white;
