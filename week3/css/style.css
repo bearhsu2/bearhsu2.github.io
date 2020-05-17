@@ -353,7 +353,19 @@ img {
 
 .designer {
     height: 800px;
-    background-color: yellow;
+    background-color: #505050;
+}
+
+.buoy {
+    margin-top: -250px;
+}
+
+.recommend h2 {
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: white;
 }
 
 .recommend-content {
@@ -366,10 +378,10 @@ img {
     border: 1px solid #dee2e6;
 }
 
-
 .bold {
     font-weight: bold;
 }
+
 .mb-16 {
     margin-bottom: 16px;
 }
