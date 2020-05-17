@@ -306,12 +306,28 @@ img {
     align-items: center;
 }
 
-.reversed {
+.object-to-reversed {
     flex-direction: row-reverse;
 }
 
 .classic-content-item h3 img {
     margin-right: 1.5%;
+}
+
+@media (max-width: 992px) {
+    .object-to-reversed{
+        flex-direction: row;
+    }
+    .classic h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .classic-content-item img {
+        width: 60%;
+    }
+    .classic-content-item h3 {
+        font-size: 28px;
+    }
 }
 
 .footer {
