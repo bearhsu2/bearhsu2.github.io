@@ -315,7 +315,7 @@ img {
 }
 
 @media (max-width: 992px) {
-    .object-to-reversed{
+    .object-to-reversed {
         flex-direction: row;
     }
     .classic h2 {
@@ -327,6 +327,27 @@ img {
     }
     .classic-content-item h3 {
         font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .classic h2 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .classic-content-item {
+        position: relative;
+    }
+    .classic-content-item img {
+        margin: 0 auto;
+        width: 95%;
+    }
+    .classic-content-item h3 {
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        font-size: 28px;
+        filter: brightness(0) invert(1);
     }
 }
 
