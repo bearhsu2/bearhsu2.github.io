@@ -363,13 +363,9 @@ img {
 
 .recommend-content-item {
     width: 23%;
-    border: 1px solid red;
+    border: 1px solid #dee2e6;
 }
 
-.recommend-content-item {
-    width: 23%;
-    border: 1px solid;
-}
 
 .bold {
     font-weight: bold;
@@ -379,7 +375,7 @@ img {
 }
 
 .grey {
-    color: grey;
+    color: #707070;
 }
 
 .padding-side-16 {
