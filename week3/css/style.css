@@ -293,7 +293,6 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 32px;
-    border: 1px solid red;
 }
 
 .classic-content-item h3 {
@@ -301,7 +300,10 @@ img {
     font-size: 48px;
     display: flex;
     align-items: center;
-    border: 1px solid;
+}
+
+.reversed {
+    flex-direction: row-reverse;
 }
 
 .classic-content-item h3 img{
