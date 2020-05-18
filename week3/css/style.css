@@ -390,6 +390,10 @@ img {
     margin-bottom: 20px;
 }
 
+.mb-42 {
+    margin-bottom: 42px;
+}
+
 .grey {
     color: #707070;
 }
@@ -446,9 +450,26 @@ img {
     line-height: 30px;
 }
 
+.contact-form-input-text p {
+    font-size: 16px;
+}
+
 .contact-form-input-text input {
-    display: block;
     width: 100%;
+    padding: 16px;
+}
+
+.contact-form .button {
+    display: block;
+    height: 54px;
+    width: 180px;
+    background-color: #aa0601;
+    color: white;
+    margin: 0 auto;
+}
+
+.contact-form .button:hover {
+    background-color: #650300;
 }
 
 .h-50 {
