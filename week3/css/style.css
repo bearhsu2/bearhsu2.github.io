@@ -421,6 +421,15 @@ img {
     }
 }
 
+.thin-container {
+    max-width: 792px;
+    margin: 0 auto;
+}
+
+.contact-form-input-text input {
+    display: block;
+}
+
 .footer {
     background-color: #aa0601;
     color: white;
