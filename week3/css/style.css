@@ -600,5 +600,20 @@ img {
     }
 }
 
-
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .footer .menu-and-social {
+        flex-direction: row-reverse;
+    }
+    .footer .menu-and-social .menu {
+        display: none;
+    }
+    .footer .menu-and-social .social {
+        width: 40%;
+    }
+    .footer .phone {
+        font-size: 16px;
+    }
+    .footer .email {
+        font-size: 16px;
+    }
+}
