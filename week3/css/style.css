@@ -40,7 +40,7 @@ table {
     border-spacing: 0;
 }
 
-/* === */
+/* Reset plus */
 
 * {
     box-sizing: border-box;
@@ -50,8 +50,6 @@ img {
     max-width: 100%;
     display: block;
 }
-
-/* ================================================================ */
 
 /* Tools */
 
@@ -95,6 +93,11 @@ img {
 .thin-container {
     max-width: 792px;
     margin: 0 auto;
+}
+
+.white-link {
+    text-decoration: none;
+    color: white;
 }
 
 /*  Layout */
@@ -535,11 +538,6 @@ img {
 
 .footer .footer-upper .menu-phone-email .img-and-text p {
     font-size: 36px;
-}
-
-.white-link {
-    text-decoration: none;
-    color: white;
 }
 
 .footer .footer-upper .social {
