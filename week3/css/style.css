@@ -402,6 +402,14 @@ img {
     padding: 0 16px;
 }
 
+.h-50 {
+    height: 50px;
+}
+
+.h-136 {
+    height: 136px;
+}
+
 @media (max-width: 992px) {
     .recommend h2 {
         font-size: 32px;
@@ -470,14 +478,6 @@ img {
 
 .contact-form .button:hover {
     background-color: #650300;
-}
-
-.h-50 {
-    height: 50px;
-}
-
-.h-136 {
-    height: 136px;
 }
 
 @media (max-width: 992px) {
@@ -551,7 +551,7 @@ img {
 }
 
 .footer .copyright-and-privacy {
-    padding: 24px 0;
+    padding: 24px 0 0 0;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -568,7 +568,6 @@ img {
 
 .footer .copyright-and-privacy .copyright p {
     font-size: 16px;
-    margin: auto;
 }
 
 .footer .copyright-and-privacy .privacy {
@@ -612,15 +611,15 @@ img {
     .footer .footer-lower .copyright-and-privacy {
         display: block;
     }
-    .footer .footer-lower .copyright-and-privacy .copyright p {
-        margin: 0;
-    }
     .footer .footer-lower .copyright-and-privacy .privacy {
         display: block;
     }
-   
+    .footer .footer-lower .copyright-and-privacy .privacy li {
+        margin-bottom: 16px;
+    }
     .hidden-component {
         width: 10%;
+        margin-bottom: 16px;
         display: block;
     }
 }
