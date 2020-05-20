@@ -87,6 +87,16 @@ img {
     height: 136px;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.thin-container {
+    max-width: 792px;
+    margin: 0 auto;
+}
+
 /*  Layout */
 
 .header {
@@ -171,11 +181,6 @@ img {
 
 .dropdown li a:hover {
     background: #8f0400;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .bg-pink {
@@ -439,11 +444,6 @@ img {
     .recommend-content-item {
         width: 95%;
     }
-}
-
-.thin-container {
-    max-width: 792px;
-    margin: 0 auto;
 }
 
 .contact {
