@@ -559,7 +559,7 @@ img {
 
 .footer .copyright-and-privacy .copyright {
     display: flex;
-    align-content: center;
+    align-items: center;
 }
 
 .footer .copyright-and-privacy .copyright img {
@@ -610,6 +610,9 @@ img {
     }
     .footer .footer-lower .copyright-and-privacy {
         display: block;
+    }
+    .footer .footer-lower .copyright-and-privacy .copyright p{
+        margin-bottom: 16px;
     }
     .footer .footer-lower .copyright-and-privacy .privacy {
         display: block;
