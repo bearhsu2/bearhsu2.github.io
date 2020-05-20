@@ -597,4 +597,17 @@ img {
     .footer .footer-upper .menu-phone-email .menu {
         display: none;
     }
+    .footer .footer-lower {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .footer-lower .copyright-and-privacy {
+        display: block;
+    }
+    .footer .footer-lower .copyright-and-privacy .copyright p {
+        margin: 0;
+    }
+    .footer .footer-lower .copyright-and-privacy .privacy {
+        display: block;
+    }
 }
