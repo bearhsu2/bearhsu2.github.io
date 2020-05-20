@@ -508,14 +508,27 @@ img {
 .footer .footer-upper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .footer .footer-upper .menu-phone-email {
+    width: 50%;
     border: 1px solid;
 }
 
+.footer .footer-upper .menu-phone-email .menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.white-link {
+    text-decoration: none;
+    color: white;
+}
+
 .footer .footer-upper .social {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
     border: 1px solid;
 }
 
