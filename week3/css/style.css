@@ -520,13 +520,26 @@ img {
     justify-content: space-between;
 }
 
+.footer .footer-upper .menu-phone-email .img-and-text {
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-upper .menu-phone-email .img-and-text .img-container {
+    width: 12%;
+}
+
+.footer .footer-upper .menu-phone-email .img-and-text p {
+    font-size: 36px;
+}
+
 .white-link {
     text-decoration: none;
     color: white;
 }
 
 .footer .footer-upper .social {
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     border: 1px solid;
@@ -571,8 +584,6 @@ img {
 }
 
 @media (max-width: 992px) {
-
-
     .footer .phone {
         font-size: 20px;
     }
