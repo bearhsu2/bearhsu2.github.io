@@ -546,8 +546,11 @@ img {
     border: 1px solid;
 }
 
-.footer .copyright-and-privacy {
+.footer .footer-lower {
     border-top: 1px solid white;
+}
+
+.footer .copyright-and-privacy {
     padding: 24px 0;
     display: flex;
     justify-content: space-between;
