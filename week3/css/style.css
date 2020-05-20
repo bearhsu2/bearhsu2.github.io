@@ -587,7 +587,7 @@ img {
     font-size: 16px;
 }
 
-.show-on-phone {
+.hidden-component {
     display: none;
 }
 
@@ -618,7 +618,9 @@ img {
     .footer .footer-lower .copyright-and-privacy .privacy {
         display: block;
     }
-    .show-on-phone {
+   
+    .hidden-component {
+        width: 10%;
         display: block;
     }
 }
