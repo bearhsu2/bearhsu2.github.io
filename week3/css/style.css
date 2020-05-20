@@ -584,6 +584,10 @@ img {
     font-size: 16px;
 }
 
+.show-on-phone {
+    display: none;
+}
+
 @media (max-width: 992px) {
     .footer .footer-upper .menu-phone-email .img-and-text p {
         font-size: 20px;
@@ -600,6 +604,7 @@ img {
     .footer .footer-lower {
         display: flex;
         justify-content: space-between;
+        align-items: flex-end;
     }
     .footer .footer-lower .copyright-and-privacy {
         display: block;
@@ -608,6 +613,9 @@ img {
         margin: 0;
     }
     .footer .footer-lower .copyright-and-privacy .privacy {
+        display: block;
+    }
+    .show-on-phone {
         display: block;
     }
 }
