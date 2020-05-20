@@ -53,6 +53,42 @@ img {
 
 /* ================================================================ */
 
+/* Tools */
+
+.bold {
+    font-weight: bold;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-42 {
+    margin-bottom: 42px;
+}
+
+.grey {
+    color: #707070;
+}
+
+.padding-side-16 {
+    padding: 0 16px;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.h-136 {
+    height: 136px;
+}
+
+/*  Layout */
+
 .header {
     position: relative;
     background-color: #aa0601;
@@ -378,38 +414,6 @@ img {
     border: 1px solid #dee2e6;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-.mb-16 {
-    margin-bottom: 16px;
-}
-
-.mb-20 {
-    margin-bottom: 20px;
-}
-
-.mb-42 {
-    margin-bottom: 42px;
-}
-
-.grey {
-    color: #707070;
-}
-
-.padding-side-16 {
-    padding: 0 16px;
-}
-
-.h-50 {
-    height: 50px;
-}
-
-.h-136 {
-    height: 136px;
-}
-
 @media (max-width: 992px) {
     .recommend h2 {
         font-size: 32px;
@@ -512,7 +516,6 @@ img {
 
 .footer .footer-upper .menu-phone-email {
     width: 50%;
-    border: 1px solid;
 }
 
 .footer .footer-upper .menu-phone-email .menu {
@@ -543,7 +546,6 @@ img {
     width: 30%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid;
 }
 
 .footer .footer-lower {
@@ -603,6 +605,9 @@ img {
     .footer .footer-upper .menu-phone-email .menu {
         display: none;
     }
+    .footer .footer-upper .menu-phone-email .img-and-text p {
+        font-size: 16px;
+    }
     .footer .footer-lower {
         display: flex;
         justify-content: space-between;
@@ -611,14 +616,18 @@ img {
     .footer .footer-lower .copyright-and-privacy {
         display: block;
     }
-    .footer .footer-lower .copyright-and-privacy .copyright p{
+    .footer .footer-lower .copyright-and-privacy .copyright p {
         margin-bottom: 16px;
+        font-size: 14px;
     }
     .footer .footer-lower .copyright-and-privacy .privacy {
         display: block;
     }
     .footer .footer-lower .copyright-and-privacy .privacy li {
         margin-bottom: 16px;
+    }
+    .footer .footer-lower .copyright-and-privacy .privacy li a {
+        font-size: 14px;
     }
     .hidden-component {
         width: 10%;
