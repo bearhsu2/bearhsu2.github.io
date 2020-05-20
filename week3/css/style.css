@@ -571,6 +571,8 @@ img {
 }
 
 @media (max-width: 992px) {
+
+
     .footer .phone {
         font-size: 20px;
     }
@@ -579,4 +581,8 @@ img {
     }
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .footer .footer-upper .menu-phone-email .menu {
+        display: none;
+    }
+}
