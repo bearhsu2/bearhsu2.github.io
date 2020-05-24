@@ -463,6 +463,20 @@ img {
     text-align: center;
 }
 
+@media (max-width: 992px) {
+    .others h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .others h2 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+}
+
 .more {
     align-items: flex-end;
 }
