@@ -456,6 +456,18 @@ img {
     margin-right: 85px;
 }
 
+.more-img span {
+    font-size: 60px;
+    color: #AA0601;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    white-space: nowrap;
+}
+
 .more-img::after {
     content: "";
     position: absolute;
