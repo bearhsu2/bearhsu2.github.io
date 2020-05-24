@@ -57,6 +57,14 @@ img {
     font-weight: bold;
 }
 
+.mb-1 {
+    margin-bottom: 1px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
 .mb-16 {
     margin-bottom: 16px;
 }
@@ -67,6 +75,30 @@ img {
 
 .mb-42 {
     margin-bottom: 42px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+.pb-300 {
+    padding-bottom: 300px;
 }
 
 .grey {
@@ -395,16 +427,75 @@ img {
     }
 }
 
-.designer {
+.others {
     background-image: url(../img/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    padding-top: 64px;
 }
 
-.pb-300 {
-    padding-bottom: 300px;
+.others h2 {
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+}
+
+.more {
+    align-items: flex-end;
+}
+
+.more-img {
+    position: relative;
+    height: 100%;
+    display: flex;
+    max-width: 30%;
+    transition: all .65s .3s;
+    transform: translateX(0px);
+    margin-right: 85px;
+}
+
+.more-img::after {
+    content: "";
+    position: absolute;
+    background: white;
+    top: 8%;
+    bottom: 8%;
+    left: 10%;
+    right: -85px;
+}
+
+.more-img span {
+    padding: 5px 0 5px 32px;
+}
+
+.more span::before {
+    content: 'MORE';
+    position: absolute;
+    transition: all .65s .3s;
+    transform: translateY(0px);
+}
+
+.more span:hover::before {
+    transform: translateY(-85px);
+    opacity: .7;
+}
+
+.more span::after {
+    content: 'MORE';
+    position: absolute;
+    transition: all .65s .3s;
+    transform: translateY(0px);
+}
+
+.more span:hover::after {
+    transform: translateY(-145px);
+    opacity: .4;
+}
+
+.more-img:hover img:last-child {
+    transform: translateX(15px);
 }
 
 .buoy {
