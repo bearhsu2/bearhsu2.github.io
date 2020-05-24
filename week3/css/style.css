@@ -518,10 +518,17 @@ img {
 .extra-item {
     width: 49%;
     position: relative;
-    background-color: #fff;
+}
+
+.white-bg {
+    background-image: url(../img/white.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .extra-item img {
+    width: 100%;
     filter: opacity(60%);
 }
 
