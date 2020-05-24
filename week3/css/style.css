@@ -53,6 +53,21 @@ img {
 
 /* Tools */
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wide-container {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.thin-container {
+    max-width: 792px;
+    margin: 0 auto;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -115,16 +130,6 @@ img {
 
 .h-136 {
     height: 136px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.thin-container {
-    max-width: 792px;
-    margin: 0 auto;
 }
 
 .white-link {
