@@ -483,6 +483,7 @@ img {
     transform: translate(-50%, -50%);
     z-index: 10000;
     white-space: nowrap;
+    padding: 5px 0 5px 32px;
 }
 
 .more-img::after {
@@ -495,9 +496,6 @@ img {
     right: -85px;
 }
 
-.more-img span {
-    padding: 5px 0 5px 32px;
-}
 
 .more span::before {
     content: 'MORE';
