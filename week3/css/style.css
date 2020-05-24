@@ -108,6 +108,10 @@ img {
     flex-direction: column;
 }
 
+.align-items-center {
+    align-items: center;
+}
+
 .mr-8 {
     margin-right: 8px;
 }
@@ -496,7 +500,6 @@ img {
     right: -85px;
 }
 
-
 .more span::before {
     content: 'MORE';
     position: absolute;
@@ -523,6 +526,18 @@ img {
 
 .more-img:hover img:last-child {
     transform: translateX(15px);
+}
+
+@media (max-width: 992px) {
+    .more-img span {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .more-img span {
+        font-size: 26px;
+    }
 }
 
 .extra {
