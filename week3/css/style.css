@@ -97,8 +97,8 @@ img {
     margin-right: 8px;
 }
 
-.pb-300 {
-    padding-bottom: 300px;
+.pb-500 {
+    padding-bottom: 500px;
 }
 
 .grey {
@@ -508,6 +508,18 @@ img {
 
 .more-img:hover img:last-child {
     transform: translateX(15px);
+}
+
+.extra-item {
+    position: relative;
+}
+
+.extra-item h3 {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    font-size: 72px;
+    color: #aa0601;
 }
 
 .buoy {
