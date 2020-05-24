@@ -229,7 +229,6 @@ img {
 
 @media (max-width: 992px) {
     .wide-container {
-        padding: 0 2%;
         max-width: 950px;
     }
 }
