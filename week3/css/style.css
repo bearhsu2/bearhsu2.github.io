@@ -68,6 +68,18 @@ img {
     margin: 0 auto;
 }
 
+@media (max-width: 992px) {
+    .thin-container {
+        max-width: 498px;
+    }
+}
+
+@media (max-width: 767px) {
+    .thin-container {
+        max-width: 327px;
+    }
+}
+
 .bold {
     font-weight: bold;
 }
@@ -679,18 +691,9 @@ img {
 }
 
 @media (max-width: 992px) {
-    .thin-container {
-        max-width: 498px;
-    }
     .contact-form .button {
         height: 36px;
         width: 136px;
-    }
-}
-
-@media (max-width: 767px) {
-    .thin-container {
-        max-width: 327px;
     }
 }
 
