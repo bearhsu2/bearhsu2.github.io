@@ -510,7 +510,12 @@ img {
     transform: translateX(15px);
 }
 
+.extra{
+    display: flex;
+    justify-content: space-between;
+}
 .extra-item {
+    width: 49%;
     position: relative;
 }
 
