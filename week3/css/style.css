@@ -510,13 +510,19 @@ img {
     transform: translateX(15px);
 }
 
-.extra{
+.extra {
     display: flex;
     justify-content: space-between;
 }
+
 .extra-item {
     width: 49%;
     position: relative;
+    background-color: #fff;
+}
+
+.extra-item img {
+    filter: opacity(60%);
 }
 
 .extra-item h3 {
