@@ -890,7 +890,8 @@ img {
 }
 
 .qna {
-    padding: 88px 0 156px 0;
+    padding-top: 88px;
+    padding-bottom: 156px;
 }
 
 .qna h2 {
@@ -904,5 +905,6 @@ img {
 
 .qna .answer {
     font-size: 16px;
-    line-height: 24px;;
+    line-height: 24px;
+    ;
 }
