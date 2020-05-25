@@ -216,7 +216,6 @@ img {
     border: 1px solid black;
 }
 
-
 /*  Layout =============================================*/
 
 .header {
@@ -881,9 +880,29 @@ img {
     background-repeat: no-repeat;
 }
 
-.title h2 {
+.title .title-content h2 {
     font-size: 64px;
     line-height: 90px;
+}
+
+@media (max-width: 992px) {
+    .title .title-content h2 {
+        font-size: 48px;
+        line-height: 80px;
+    }
+    .title .title-content img {
+        width: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title .title-content h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .title .title-content img {
+        width: 28px;
+    }
 }
 
 .qna {
