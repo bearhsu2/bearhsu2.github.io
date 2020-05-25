@@ -177,6 +177,10 @@ img {
     color: white;
 }
 
+.bg-pink {
+    background-color: #AA06010D;
+}
+
 /*  Layout =============================================*/
 
 .header {
@@ -402,10 +406,6 @@ img {
 }
 
 /* Main =============================================*/
-
-.bg-pink {
-    background-color: #AA06010D;
-}
 
 .banner {
     background-image: url(../img/68.png);
