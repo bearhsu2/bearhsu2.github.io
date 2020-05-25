@@ -881,3 +881,12 @@ img {
     font-size: 64px;
     line-height: 90px;
 }
+
+.qna {
+    padding: 88px 0 156px 0;
+}
+
+.qna h2 {
+    font-size: 32px;
+    line-height: 45px;
+}
