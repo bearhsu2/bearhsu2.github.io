@@ -244,6 +244,14 @@ img {
     transition: all 0.8s;
     overflow: hidden;
     z-index: 120;
+
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .dropdown {
+        display: block;
+    }
 }
 
 .dropdown.active {
