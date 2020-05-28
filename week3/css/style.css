@@ -854,6 +854,13 @@ img {
     border: 1px solid black;
 }
 
+.contact-form-input-text textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid black;
+}
+
+
 .contact-form-input-checkbox {
     display: flex;
     align-items: center;
