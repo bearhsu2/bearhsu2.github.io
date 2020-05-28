@@ -505,6 +505,7 @@ img {
 .feature .feature-content {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .feature .feature-content li {
