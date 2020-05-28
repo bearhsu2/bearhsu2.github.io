@@ -854,6 +854,11 @@ img {
     border: 1px solid black;
 }
 
+.contact-form-input-checkbox {
+    display: flex;
+    align-items: center;
+}
+
 .contact-form .button {
     display: block;
     height: 54px;
