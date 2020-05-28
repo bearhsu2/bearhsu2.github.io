@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
 
     <div class="about">
         <h2>About</h2>
-        <img src="img/photo.png" alt="">
+        <img src="img/photo.png" alt="" data-aos="zoom-in-up">
 
         <p>Joanne Chen</p>
         <p>1997/10/10</p>
@@ -51,11 +52,11 @@
             <p>2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
 
             <div class="brand-images center">
-                <img src="img/brand_img1.png" alt="">
+                <img data-aos="fade-left" src="img/brand_img1.png" alt="">
             </div>
             <div class="brand-images space-between">
-                <img src="img/brand_img2.png" alt="">
-                <img src="img/brand_img3.png" alt="">
+                <img data-aos="fade-right" src="img/brand_img2.png" alt="">
+                <img data-aos="fade-right" src="img/brand_img3.png" alt="">
             </div>
         </div>
     </div>
@@ -65,34 +66,34 @@
             <h2>Other Works</h2>
             <p>2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
 
-            <ul class="works-items-wrapper">
-                <li class="works-item">
+            <ul class="works-items-wrapper" data-aos="fade-left">
+                <li class="works-item" >
                     <img src="img/work_img1.png" alt="">
                     <h3>海報設計/2017</h3>
                 </li>
-                <li class="works-item">
+                <li class="works-item" >
                     <img src="img/work_img2.png" alt="">
                     <h3>海報設計/2018</h3>
                 </li>
-                <li class="works-item">
+                <li class="works-item" >
                     <img src="img/work_img3.png" alt="">
                     <h3>海報設計/2018</h3>
                 </li>
             </ul>
 
-            <ul class="works-items-wrapper">
-                <li class="works-item">
+            <ul class="works-items-wrapper" data-aos="fade-right">
+                <li class="works-item" >
                     <img src="img/work_img4.png" alt="">
                     <h3>概念攝影/2018</h3>
                 </li>
-                <li class="works-item">
+                <li class="works-item" >
                     <img src="img/work_img5.png" alt="">
                     <h3>概念攝影/2018</h3>
                 </li>
             </ul>
 
 
-            <ul class="works-items-wrapper">
+            <ul class="works-items-wrapper" data-aos="fade-left">
                 <li class="works-item">
                     <img src="img/work_img6.png" alt="">
                     <h3>sasa 酒標設計/2019</h3>
@@ -116,6 +117,12 @@
         <p>Mail：xxxd@hexschool.com</p>
         <p>Phone Number：0910123456</p>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
