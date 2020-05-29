@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,AAAC,CACJ,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CAKf,AAPD,AAII,OAJG,CAIH,CAAC,AAAC,CACE,KAAK,CAAE,IAAI,CACd",
-    "sources": [
-        "../week5/scss/all.scss"
-    ],
-    "names": [],
-    "file": "all.min.css"
-}
