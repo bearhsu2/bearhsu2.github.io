@@ -1,11 +1,11 @@
 @import "common";
 @import "aside";
+@import "content";
 
 
 
 // fake
-.main {
-    width: 75%;
+.fake-main {
     height: 600px;
     font-size: 90px;
     background-color: pink;
