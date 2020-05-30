@@ -10,5 +10,12 @@
         font-size:14px;
         color: #0000009A;
     }
+    .unselected {
+        border-left: 4px solid #EDF4EE ;
+    }
+    .selected {
+        color: #2A8356;
+        border-left: 4px solid ;
+    }
 
 }
