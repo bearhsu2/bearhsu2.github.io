@@ -1,21 +1,20 @@
 .aside {
-    background-color: #EDF4EE;
+    background-color: #edf4ee;
     width: 25%;
 
     .home {
         width: 40px;
     }
-    
+
     .email {
-        font-size:14px;
-        color: #0000009A;
+        font-size: 14px;
+        color: #0000009a;
     }
     .unselected {
-        border-left: 4px solid #EDF4EE ;
+        border-left: 4px solid #edf4ee;
     }
     .selected {
-        color: #2A8356;
-        border-left: 4px solid ;
+        color: #2a8356;
+        border-left: 4px solid;
     }
-
 }
