@@ -1,3 +1,8 @@
+a {
+    color: inherit;
+}
+
+
 .debug-bordered {
    border: 1px solid black;
 }
@@ -6,6 +11,9 @@
    border-radius: 50%;
 }
 
+.black {
+   color: black;
+}
 .grey {
    color: grey;
 }
@@ -34,16 +42,16 @@
    background-color: #edf4ee;
 }
 .bg-darkgreen {
-   background-color: #2A8356;
+   background-color: #2a8356;
 }
 .border-bottom-green {
    border-bottom: 1px solid;
-   border-color: #cdddcd;;
+   border-color: #cdddcd;
 }
 .border-green {
    border: 1px solid #cdddcd;
 }
 
 .border-darkgreen {
-   border: 1px solid #2A8356;
+   border: 1px solid #2a8356;
 }
