@@ -1,3 +1,13 @@
+.button-light {
+    background-color: $primary-light;
+    color: black;
+    border: 1px solid $primary;
+
+
+    &:hover {
+        color: $primary-dark;
+    }
+}
 .button {
     background-color: $primary-dark;
     color: white;
