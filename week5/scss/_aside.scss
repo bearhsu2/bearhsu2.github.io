@@ -8,17 +8,17 @@
 
     .email {
         font-size: 14px;
-        color: #0000009a;
+        color: $gray;
     }
     .unselected {
-        border-left: 4px solid #edf4ee;
+        border-left: 4px solid $primary-light;
 
         &:hover {
             color: $primary-dark;
         }
     }
     .selected {
-        color: #2a8356;
+        color: $primary-dark;
         border-left: 4px solid;
     }
 }
