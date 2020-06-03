@@ -332,7 +332,7 @@
 
                         </ul>
 
-                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="commentFooter d-flex justify-content-between align-items-center position-relative">
                             <div class="">
                                 <a href="#">
                                     <span class="material-icons clickable-icon mr-3">
@@ -359,10 +359,45 @@
                                 </a>
 
                                 <a href="#" class="text-decoration-none">
-                                    <div class="d-flex justify-content-center align-items-center button py-2 px-5 mb-2">
+                                    <div class="d-flex justify-content-center align-items-center button py-2 px-5 mb-2 openReply">
                                         Reply
                                     </div>
                                 </a>
+                            </div>
+
+                            <div class="bodyText position-absolute">
+                                <ul class="bodyTextHeader d-flex align-items-center">
+                                    <select>
+                                        <option value="Body Text">Body Text</option>
+                                    </select>
+                                    <li>
+                                        <i class="material-icons">format_bold</i>
+                                    </li>
+                                    <li>
+                                        <i class="material-icons">format_italic</i>
+                                    </li>
+                                    <li>
+                                        <i class="material-icons">format_list_bulleted</i>
+                                    </li>
+                                    <li>
+                                        <i class="material-icons">format_list_numbered</i>
+                                    </li>
+                                    <li>
+                                        <i class="material-icons">insert_photo</i>
+                                    </li>
+                                    <li>
+                                        <i class="material-icons">insert_link</i>
+                                    </li>
+                                    <li>
+                                        <i class="material-icons">chevron_left</i>
+                                        <i class="material-icons">chevron_right</i>
+                                    </li>
+                                </ul>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Reply an answer…"></textarea>
+                                <div class="btnHandler">
+                                    <button class="cancel">Cancel</button>
+                                    <button class="reply">Reply</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -374,8 +409,20 @@
         </section>
     </div>
 
-    </div>
-
+    <script>
+        let openReplyBtn = document.querySelector(".openReply")
+        let cancelBtn = document.querySelector(".cancel")
+        let bodyText = document.querySelector(".bodyText")
+        openReplyBtn.addEventListener("click", function (e) {
+            console.log(e)
+            bodyText.style.width = "100%"
+            bodyText.style.height = "332px"
+        })
+        cancelBtn.addEventListener("click", function (e) {
+            bodyText.style.width = "0%"
+            bodyText.style.height = "0px"
+        })
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
