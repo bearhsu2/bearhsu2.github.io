@@ -13,6 +13,10 @@
     .unselected {
         // color: black;
         border-left: 4px solid #edf4ee;
+
+        &:hover {
+            color: $primary-dark;
+        }
     }
     .selected {
         color: #2a8356;
