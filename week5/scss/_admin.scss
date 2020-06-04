@@ -1,7 +1,21 @@
 .admin-item {
-
     &:hover {
         background-color: $primary-light;
     }
+}
 
+.page-item {
+    .page-link {
+        color: $primary-dark;
+
+        &:hover {
+            color: $primary-light;
+            background-color: $primary-dark;
+        }
+    }
+
+    .selected {
+        color: $primary-light;
+        background-color: $primary-dark;
+    }
 }
