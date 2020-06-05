@@ -180,7 +180,7 @@
 
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
-          
+
                                             <div class="modal-body">
 
                                                 <div class="d-flex justify-content-between align-items-center">
@@ -193,7 +193,7 @@
                                                                 #1
                                                             </div>
 
-                                                            <a href="#" >
+                                                            <a href="#">
 
                                                                 <div data-dismiss="modal">
                                                                     <span class="material-icons clickable-icon">
@@ -208,22 +208,29 @@
                                                         <div class="d-flex justify-content-between">
 
                                                             <div class=" bg-green font-size-14 p-1">Verified</div>
-                                                            <div>
-                                                                <span class="material-icons green">
-                                                                    keyboard_arrow_down
-                                                                </span>
+                                                            <div class="collapse-btn" type="button"
+                                                                data-toggle="collapse" data-target="#menu"
+                                                                aria-expanded="false" aria-controls="menu">
+                                                                <a href="#">
+                                                                    <span class="material-icons green">
+                                                                        keyboard_arrow_down
+                                                                    </span>
+                                                                </a>
                                                             </div>
+                                                        </div>
+                                                        <div class="collapse" id="menu">
+
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Save
+                                                                changes</button>
                                                         </div>
                                                     </div>
                                                 </div>
 
 
                                             </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
-                                            </div>
+
                                         </div>
                                     </div>
 
