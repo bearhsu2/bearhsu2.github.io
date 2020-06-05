@@ -7,10 +7,9 @@ img {
 }
 
 .persona-img {
-   width: 40px;
-   border-radius: 50%;
+    width: 40px;
+    border-radius: 50%;
 }
-
 
 .button-light {
     background-color: $primary-light;
@@ -29,6 +28,17 @@ img {
     &:hover {
         background-color: #fff;
         color: $primary-dark;
+    }
+}
+
+.button-pink {
+    background-color: $pink;
+    color: white;
+    border: 1px solid $pink;
+
+    &:hover {
+        background-color: #fff;
+        color: $pink;
     }
 }
 
