@@ -19,3 +19,20 @@
         background-color: $primary-dark;
     }
 }
+
+.menu__icon--open {
+  display: inline;
+}
+
+[aria-expanded="false"] .menu__icon--open {
+  display: inline;
+}
+[aria-expanded="false"] .menu__icon--close {
+  display: none;
+}
+[aria-expanded="true"] .menu__icon--open {
+  display: none;
+}
+[aria-expanded="true"] .menu__icon--close {
+  display: inline;
+}
