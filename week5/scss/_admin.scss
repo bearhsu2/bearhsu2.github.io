@@ -48,10 +48,17 @@
     }
 }
 
-
 .editModal {
     .modal-header {
         border-bottom: 0 none;
     }
 
+    .dropdown {
+        .access-level-btn {
+        
+            border: 1px solid $gray;
+            text-align: left;
+            // background-color: black;
+        }
+    }
 }
