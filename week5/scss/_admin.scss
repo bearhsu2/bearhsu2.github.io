@@ -28,12 +28,6 @@
         display: inline;
     }
 
-    .disabled-button-light {
-        background-color: white;
-        color: $primary-light;
-        border: 1px solid $primary-light;
-    }
-
     [aria-expanded="false"] .menu__icon--open {
         display: inline;
     }
@@ -53,12 +47,16 @@
         border-bottom: 0 none;
     }
 
+    .disabled-button-light {
+        background-color: white;
+        color: $primary-light;
+        border: 1px solid $primary-light;
+    }
+
     .dropdown {
         .access-level-btn {
-        
             border: 1px solid $gray;
             text-align: left;
-            // background-color: black;
         }
     }
 }
