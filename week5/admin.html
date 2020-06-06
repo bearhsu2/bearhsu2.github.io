@@ -175,7 +175,7 @@
                                 </a>
 
                                 <!-- View Modal -->
-                                <div class="modal fade" id="viewModal" tabindex="-1" role="dialog"
+                                <div class="viewModal modal fade" id="viewModal" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
 
                                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -252,7 +252,7 @@
                                         create
                                     </span>
                                 </a>
-                                <div class="modal fade" id="editModal" tabindex="-1" role="dialog"
+                                <div class="editModal modal fade" id="editModal" tabindex="-1" role="dialog"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
 
                                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -323,10 +323,20 @@
                                                         <h5>Access Level</h5>
                                                         <div class="form-group">
 
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <div class="disabled-button-light p-3 w-100 text-center">
-                                                                Send Verification Mail</div>
+                                                            <div class="dropdown">
+                                                                <button class="btn access-level-btn dropdown-toggle"
+                                                                    type="button" id="dropdownMenuButton"
+                                                                    data-toggle="dropdown" aria-haspopup="true"
+                                                                    aria-expanded="false">
+                                                                    Admin
+                                                                </button>
+                                                                <div class="dropdown-menu"
+                                                                    aria-labelledby="dropdownMenuButton">
+                                                                    <a class="dropdown-item" href="#">Admin</a>
+                                                                    <a class="dropdown-item" href="#">Manager</a>
+                                                                    <a class="dropdown-item" href="#">Guest </a>
+                                                                </div>
+                                                            </div>
                                                         </div>
 
                                                     </div>

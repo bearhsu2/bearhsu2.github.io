@@ -19,7 +19,7 @@
         background-color: $primary-dark;
     }
 }
-.modal {
+.viewModal {
     .modal-header {
         border-bottom: 0 none;
     }
@@ -46,4 +46,12 @@
     [aria-expanded="true"] .menu__icon--close {
         display: inline;
     }
+}
+
+
+.editModal {
+    .modal-header {
+        border-bottom: 0 none;
+    }
+
 }
