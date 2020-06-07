@@ -114,8 +114,8 @@
                         </h4>
                     </div>
 
-                    <a href="#" class="text-decoration-none clickable-icon" data-toggle="modal" data-name=""
-                        data-email="" data-target="#editModal">
+                    <a href="#" class="text-decoration-none clickable-icon" data-toggle="modal" data-title="New Admin"
+                        data-name="" data-email="" data-target="#editModal">
 
                         <div class="d-flex">
 
@@ -249,8 +249,7 @@
 
                                 </div>
                                 <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#editModal"
-                                data-name="Emir Wicks" data-email="emir.wicks@mail.com"
-                                >
+                                    data-title="Edit Admin" data-name="Emir Wicks" data-email="emir.wicks@mail.com">
                                     <span class="material-icons clickable-icon">
                                         create
                                     </span>
@@ -457,7 +456,8 @@
                         <div class="modal-content">
 
                             <div class="modal-header">
-                                <h4 class="modal-title" id="exampleModalLongTitle">Edit Admin</h4>
+                                <h4 class="modal-title" id="editModalTitle"></h4>
+
                                 <a href="#">
                                     <div data-dismiss="modal">
                                         <span class="material-icons clickable-icon">
@@ -485,8 +485,7 @@
                                             <label for="editModalInputEmail">Email address</label>
                                             <input type="email"
                                                 class="form-control form-control-lg font-size-16 bg-green"
-                                                id="editModalInputEmail" placeholder="Enter email"
-                                                value="">
+                                                id="editModalInputEmail" placeholder="Enter email" value="">
                                         </div>
 
                                     </div>
@@ -655,13 +654,18 @@
                     var button = $(event.relatedTarget) // Button that triggered the modal
                     var name = button.data('name') // Extract info from data-* attributes
                     var email = button.data('email')
+                    var title = button.data('title')
 
+
+                    console.log('title: ' + title)
                     console.log('name: ' + name)
                     console.log('email: ' + email)
+
 
                     // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
                     // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
                     var modal = $(this)
+                    modal.find('#editModalTitle').text(title)
                     modal.find('#editModalInputName').val(name)
                     modal.find('#editModalInputEmail').val(email)
                 })
