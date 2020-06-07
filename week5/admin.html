@@ -114,8 +114,8 @@
                         </h4>
                     </div>
 
-                    <a href="#" class="text-decoration-none clickable-icon" data-toggle="modal"
-                        data-target="#editModal">
+                    <a href="#" class="text-decoration-none clickable-icon" data-toggle="modal" data-name=""
+                        data-email="" data-target="#editModal">
 
                         <div class="d-flex">
 
@@ -632,6 +632,7 @@
 
 
 
+
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
                 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
                 crossorigin="anonymous"></script>
@@ -641,6 +642,29 @@
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
                 integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
                 crossorigin="anonymous"></script>
+
+
+            <script>
+
+                $('#editModal').on('show.bs.modal', function (event) {
+
+                    console.log('show bs modal')
+
+                    var button = $(event.relatedTarget) // Button that triggered the modal
+                    var name = button.data('name') // Extract info from data-* attributes
+                    var email = button.data('email')
+
+                    console.log('name: ' + name)
+                    console.log('email: ' + email)
+
+                    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                    var modal = $(this)
+                    modal.find('#editModalInputName').val(name)
+                    modal.find('#editModalInputEmail').val(email)
+                })
+
+            </script>
 </body>
 
 </html>
