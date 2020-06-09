@@ -1,4 +1,3 @@
-
 .admin-item {
     &:hover {
         background-color: $primary-light;
@@ -43,11 +42,8 @@
     }
 }
 
+.addModal,
 .editModal {
-    // .modal-header {
-    //     border-bottom: 0 none;
-    // }
-
     .modal-body {
         overflow-y: scroll;
         max-height: 669px;
