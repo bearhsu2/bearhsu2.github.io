@@ -1,0 +1,24 @@
+.aside {
+    background-color: #edf4ee;
+    width: 23%;
+
+    .home {
+        width: 40px;
+    }
+
+    .email {
+        font-size: 14px;
+        color: $gray;
+    }
+    .unselected {
+        border-left: 4px solid $primary-light;
+
+        &:hover {
+            color: $primary-dark;
+        }
+    }
+    .selected {
+        color: $primary-dark;
+        border-left: 4px solid;
+    }
+}
