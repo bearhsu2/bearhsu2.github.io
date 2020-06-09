@@ -396,8 +396,8 @@
                                             </a>
                                         </div>
                                         <div class="">Admin</div>
-                                        <div class=" font-size-24 font-weight-bold">Emir Wicks</div>
-                                        <div class="grey font-size-14">emir.wicks@mail.com</div>
+                                        <div id="viewModalName" class="font-size-24 font-weight-bold"></div>
+                                        <div id="viewModalEmail" class="grey font-size-14"></div>
                                         <div class="d-flex justify-content-between mb-4">
 
                                             <div class=" bg-green font-size-14 p-1">Verified</div>
@@ -642,14 +642,24 @@
 
             <script>
 
+                $('#viewModal').on('show.bs.modal', function (event) {
+                    
+                    const button = $(event.relatedTarget) // Button that triggered the modal
+                    const name = button.data('name') // Extract info from data-* attributes
+                    const email = button.data('email')
+
+
+                    const modal = $(this)
+                    modal.find('#viewModalName').text(name)
+                    modal.find('#viewModalEmail').text(email)
+                })
+
                 $('#editModal').on('show.bs.modal', function (event) {
 
                     const button = $(event.relatedTarget) // Button that triggered the modal
                     const name = button.data('name') // Extract info from data-* attributes
                     const email = button.data('email')
 
-                    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
                     const modal = $(this)
                     modal.find('#editModalInputName').val(name)
                     modal.find('#editModalInputEmail').val(email)
