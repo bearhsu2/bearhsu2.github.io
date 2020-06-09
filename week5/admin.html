@@ -114,7 +114,7 @@
                         </h4>
                     </div>
 
-                    <a href="#" class="text-decoration-none clickable-icon" data-toggle="modal"  data-target="#addModal">
+                    <a href="#" class="text-decoration-none clickable-icon" data-toggle="modal" data-target="#addModal">
 
                         <div class="d-flex">
 
@@ -168,22 +168,18 @@
                             <div class="w-40">emir.wicks@mail.com</div>
                             <div class="w-22">Yes</div>
                             <div class="w-8 d-flex justify-content-between">
-                                <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#viewModal">
+                                <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#viewModal"
+                                    data-name="Emir Wicks" data-email="emir.wicks@mail.com">
                                     <span class="material-icons clickable-icon">
                                         visibility
                                     </span>
                                 </a>
-
-                               
                                 <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#editModal"
-                                    data-title="Edit Admin" data-name="Emir Wicks" data-email="emir.wicks@mail.com">
+                                    data-name="Emir Wicks" data-email="emir.wicks@mail.com">
                                     <span class="material-icons clickable-icon">
                                         create
                                     </span>
                                 </a>
-
-
-
                             </div>
                         </li>
 
@@ -374,14 +370,14 @@
 
 
                 <!-- View Modal -->
-                <div class="viewModal modal fade" id="viewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                
+                <div class="viewModal modal fade" id="viewModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
-                
+
                             <div class="modal-body">
-                
+
                                 <div class="d-flex justify-content-between">
                                     <div class="w-30 ">
                                         <img src="img/modal-pic.png" alt="">
@@ -403,10 +399,11 @@
                                         <div class=" font-size-24 font-weight-bold">Emir Wicks</div>
                                         <div class="grey font-size-14">emir.wicks@mail.com</div>
                                         <div class="d-flex justify-content-between mb-4">
-                
+
                                             <div class=" bg-green font-size-14 p-1">Verified</div>
                                             <div class="collapse-btn" type="button" data-toggle="collapse"
-                                                data-target="#profile-control" aria-expanded="false" aria-controls="menu">
+                                                data-target="#profile-control" aria-expanded="false"
+                                                aria-controls="menu">
                                                 <a href="#" class="text-decoration-none">
                                                     <span class="material-icons green menu__icon--open">
                                                         keyboard_arrow_down
@@ -425,9 +422,10 @@
                                                         Deactivate
                                                     </div>
                                                 </a>
-                
+
                                                 <a href="#" class="text-decoration-none">
-                                                    <div class="d-flex justify-content-center align-items-center button py-2 px-5 mb-2">
+                                                    <div
+                                                        class="d-flex justify-content-center align-items-center button py-2 px-5 mb-2">
                                                         Edit
                                                     </div>
                                                 </a>
@@ -435,13 +433,13 @@
                                         </div>
                                     </div>
                                 </div>
-                
-                
+
+
                             </div>
-                
+
                         </div>
                     </div>
-                
+
                 </div>
 
 
@@ -453,7 +451,7 @@
                         <div class="modal-content">
 
                             <div class="modal-header">
-                                <h4 class="modal-title" id="editModalTitle"></h4>
+                                <h4 class="modal-title" id="editModalTitle">Edit Admin</h4>
 
                                 <a href="#">
                                     <div data-dismiss="modal">
@@ -649,12 +647,10 @@
                     const button = $(event.relatedTarget) // Button that triggered the modal
                     const name = button.data('name') // Extract info from data-* attributes
                     const email = button.data('email')
-                    const title = button.data('title')
 
                     // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
                     // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
                     const modal = $(this)
-                    modal.find('#editModalTitle').text(title)
                     modal.find('#editModalInputName').val(name)
                     modal.find('#editModalInputEmail').val(email)
                 })
