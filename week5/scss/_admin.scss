@@ -1,0 +1,64 @@
+.admin-item {
+    &:hover {
+        background-color: $primary-light;
+    }
+}
+
+.page-item {
+    .page-link {
+        color: $primary-dark;
+
+        &:hover {
+            color: $primary-light;
+            background-color: $primary-dark;
+        }
+    }
+
+    .selected {
+        color: $primary-light;
+        background-color: $primary-dark;
+    }
+}
+.viewModal {
+    .modal-header {
+        border-bottom: 0 none;
+    }
+
+    .menu__icon--open {
+        display: inline;
+    }
+
+    [aria-expanded="false"] .menu__icon--open {
+        display: inline;
+    }
+    [aria-expanded="false"] .menu__icon--close {
+        display: none;
+    }
+    [aria-expanded="true"] .menu__icon--open {
+        display: none;
+    }
+    [aria-expanded="true"] .menu__icon--close {
+        display: inline;
+    }
+}
+
+.addModal,
+.editModal {
+    .modal-body {
+        overflow-y: scroll;
+        max-height: 75vh;
+    }
+
+    .disabled-button-light {
+        background-color: white;
+        color: $primary-light;
+        border: 1px solid $primary-light;
+    }
+
+    .dropdown {
+        .access-level-btn {
+            border: 1px solid $gray;
+            text-align: left;
+        }
+    }
+}

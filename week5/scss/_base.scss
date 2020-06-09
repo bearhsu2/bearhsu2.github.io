@@ -1,0 +1,52 @@
+a {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.persona-img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.button-light {
+    background-color: $primary-light;
+    color: black;
+    border: 1px solid $primary;
+
+    &:hover {
+        color: $primary-dark;
+    }
+}
+
+.button {
+    background-color: $primary-dark;
+    color: white;
+    border: 1px solid $primary-dark;
+
+    &:hover {
+        background-color: #fff;
+        color: $primary-dark;
+    }
+}
+
+
+
+.button-pink {
+    background-color: $pink;
+    color: white;
+    border: 1px solid $pink;
+
+    &:hover {
+        background-color: #fff;
+        color: $pink;
+    }
+}
+
+.clickable-icon {
+    &:hover {
+        color: $primary-dark;
+    }
+}
