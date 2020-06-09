@@ -334,8 +334,7 @@
                                         visibility
                                     </span>
                                 </a>
-                                <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#editModal"
-                                    data-name="Emir Wicks" data-email="emir.wicks@mail.com">
+                                <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#editModal">
                                     <span class="material-icons clickable-icon">
                                         create
                                     </span>
@@ -819,8 +818,8 @@
                 $('#editModal').on('show.bs.modal', function (event) {
 
                     const button = $(event.relatedTarget) // Button that triggered the modal
-                    const name = button.data('name') // Extract info from data-* attributes
-                    const email = button.data('email')
+                    const name = button.closest('.admin-item').find('.name').text()
+                    const email = button.closest('.admin-item').find('.email').text()
 
                     const modal = $(this)
                     modal.find('#editModalInputName').val(name)
