@@ -325,12 +325,11 @@
                         <li class="admin-item d-flex justify-content-between border-top border-bottom-green py-3">
 
                             <div class="w-10">#1</div>
-                            <div class="w-20">Emir Wicks</div>
-                            <div class="w-40">emir.wicks@mail.com</div>
+                            <div class="name w-20">Emir Wicks</div>
+                            <div class="email w-40">emir.wicks@mail.com</div>
                             <div class="w-22">Yes</div>
                             <div class="w-8 d-flex justify-content-between">
-                                <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#viewModal"
-                                    data-name="Emir Wicks" data-email="emir.wicks@mail.com">
+                                <a href="#" class="text-decoration-none" data-toggle="modal" data-target="#viewModal">
                                     <span class="material-icons clickable-icon">
                                         visibility
                                     </span>
@@ -808,9 +807,9 @@
                 $('#viewModal').on('show.bs.modal', function (event) {
 
                     const button = $(event.relatedTarget) // Button that triggered the modal
-                    const name = button.data('name') // Extract info from data-* attributes
-                    const email = button.data('email')
 
+                    const name = button.closest('.admin-item').find('.name').text()
+                    const email = button.closest('.admin-item').find('.email').text()
 
                     const modal = $(this)
                     modal.find('#viewModalName').text(name)
