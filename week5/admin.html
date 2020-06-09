@@ -130,15 +130,15 @@
                 </div>
 
                 <!-- Add Modal -->
-                <div class="addModal modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                
+                <div class="addModal modal fade" id="addModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                
+
                             <div class="modal-header">
                                 <h4 class="modal-title" id="addModalTitle">New Admin</h4>
-                
+
                                 <a href="#">
                                     <div data-dismiss="modal">
                                         <span class="material-icons clickable-icon">
@@ -147,15 +147,15 @@
                                     </div>
                                 </a>
                             </div>
-                
+
                             <div class="modal-body">
-                
+
                                 <form>
-                
+
                                     <div class="border-bottom-green py-3">
-                
+
                                         <h5>Account</h5>
-                
+
                                         <div class="form-group">
                                             <label for="addModalInputName">Name</label>
                                             <input type="text" class="form-control form-control-lg font-size-16"
@@ -166,43 +166,43 @@
                                             <input type="email" class="form-control form-control-lg font-size-16"
                                                 id="addModalInputEmail" placeholder="Enter email" value="">
                                         </div>
-                
+
                                     </div>
                                     <div class="border-bottom-green py-3">
-                
+
                                         <h5>Verification</h5>
-                
+
                                         <div class="form-group">
-                                            <div class="d-flex justify-content-between mb-2">
+                                            <div class=" mb-2">
                                                 <div class="d-flex align-items-flex-end">
                                                     <div class="mr-2">
-                                                        <span class="material-icons green">
-                                                            check_circle
+                                                        <span class="material-icons pink">
+                                                            warning
                                                         </span>
                                                     </div>
                                                     <div>
-                                                        Verified
+                                                        Unverified
                                                     </div>
                                                 </div>
-                                                <div class="font-size-14">
-                                                    2020/4/12
-                                                </div>
+
                                             </div>
-                                            <div class="disabled-button-light p-3 w-100 text-center">
+                                            <button class="btn button p-3 w-100">
                                                 Send Verification
-                                                Mail</div>
+                                                Mail
+                                            </button>
                                         </div>
-                
+
                                     </div>
                                     <div class="border-bottom-green py-3">
-                
+
                                         <h5>Access Level</h5>
                                         <div class="form-group">
-                
+
                                             <div class="dropdown">
-                                                <button class="btn w-100 access-level-btn p-3" type="button" id="dropdownMenuButton"
-                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                
+                                                <button class="btn w-100 access-level-btn p-3" type="button"
+                                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+
                                                     <div class="d-flex justify-content-between align-items-center">
                                                         <div>
                                                             Admin
@@ -213,8 +213,8 @@
                                                             </span>
                                                         </div>
                                                     </div>
-                
-                
+
+
                                                 </button>
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                     <a class="dropdown-item" href="#">Admin</a>
@@ -223,49 +223,54 @@
                                                 </div>
                                             </div>
                                         </div>
-                
+
                                     </div>
-                
+
                                     <div class="border-bottom-green py-3">
-                
+
                                         <h5>Custom Access</h5>
                                         <div class="form-group">
-                
+
                                             <div class="input-group align-items-center mb-3">
-                                                <input class="mr-2" type="checkbox" aria-label="Checkbox for following text input">
+                                                <input class="mr-2" type="checkbox"
+                                                    aria-label="Checkbox for following text input">
                                                 <div>Lecture</div>
                                             </div>
-                
+
                                             <div class="input-group align-items-center mb-3">
-                                                <input class="mr-2" type="checkbox" aria-label="Checkbox for following text input">
+                                                <input class="mr-2" type="checkbox"
+                                                    aria-label="Checkbox for following text input">
                                                 <div>Coupon</div>
                                             </div>
-                
+
                                             <div class="input-group align-items-center mb-3">
-                                                <input class="mr-2" type="checkbox" aria-label="Checkbox for following text input">
+                                                <input class="mr-2" type="checkbox"
+                                                    aria-label="Checkbox for following text input">
                                                 <div>Message</div>
                                             </div>
-                
+
                                             <div class="input-group align-items-center mb-3">
-                                                <input class="mr-2" type="checkbox" aria-label="Checkbox for following text input">
+                                                <input class="mr-2" type="checkbox"
+                                                    aria-label="Checkbox for following text input">
                                                 <div>Setting</div>
                                             </div>
-                
+
                                             <div class="input-group align-items-center mb-3">
-                                                <input class="mr-2" type="checkbox" aria-label="Checkbox for following text input">
+                                                <input class="mr-2" type="checkbox"
+                                                    aria-label="Checkbox for following text input">
                                                 <div>Task Menu</div>
                                             </div>
-                
+
                                         </div>
-                
+
                                     </div>
-                
-                
+
+
                                     <div class="py-3">
-                
+
                                         <h5>Deactivate Account</h5>
                                         <div class="form-group">
-                
+
                                             <div class="mb-2 pink d-flex">
                                                 <div class="mr-2">
                                                     <span class="material-icons">
@@ -273,24 +278,24 @@
                                                     </span>
                                                 </div>
                                                 <div>
-                
+
                                                     This cannot be undone!
                                                 </div>
                                             </div>
-                
+
                                             <button class="btn button-pink p-3 w-100">
                                                 Deactivate This Account
                                             </button>
-                
+
                                         </div>
-                
+
                                     </div>
-                
-                
+
+
                                 </form>
-                
+
                             </div>
-                
+
                             <div class="modal-footer">
                                 <div class="d-flex justify-content-end">
                                     <div class="mr-3">
@@ -301,11 +306,11 @@
                                     </div>
                                 </div>
                             </div>
-                
-                
+
+
                         </div>
-                
-                
+
+
                     </div>
                 </div>
 
