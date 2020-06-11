@@ -1,4 +1,18 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "variables"; // 複製一份 variable 來覆蓋
+@import "../node_modules/bootstrap/scss/mixins";
+// Option
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/pagination";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/modal";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/buttons";
+
 
 .box {
     height: 500px;
