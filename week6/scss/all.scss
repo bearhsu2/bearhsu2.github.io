@@ -1,15 +1,5 @@
-@import "variable";
-@import "base";
-@import "util";
-@import "aside";
-@import "content";
-@import "admin";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
-
-
-// fake
-.fake-main {
-    height: 600px;
-    font-size: 50px;
-    background-color: pink;
+.box {
+    height: 50px;
 }
