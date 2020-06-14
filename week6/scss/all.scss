@@ -8,12 +8,16 @@
 
 
 // customized
+@import "header";
 @import "banner";
 
 .debug-bordered {
     border: 1px solid black;
 }
 
+.z10 {
+    z-index: 10;
+}
 .mt-n100{
     margin-top: -100px;
 }
