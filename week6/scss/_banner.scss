@@ -1,0 +1,16 @@
+.banner {
+
+    position: relative;
+
+    .banner-right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background-image: url(../img/tom-crew-5HRCkrSs9Dk-unsplash.jpg);
+        // height: 500px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        // color: #650300;
+    }
+}

@@ -5,3 +5,15 @@
 // Option
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// customized
+@import "banner";
+
+.debug-bordered {
+    border: 1px solid black;
+}
+
+.mt-n50{
+    // margin-top: -50px;
+}
