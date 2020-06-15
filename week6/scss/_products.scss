@@ -2,6 +2,11 @@
     .product {
         position: relative;
 
+        img {
+            height: 350px;
+            object-fit: cover;
+        }
+
         .tag {
             // position: absolute;
 
