@@ -1,0 +1,14 @@
+.products {
+    .product {
+        position: relative;
+
+        .tag {
+            // position: absolute;
+
+            text-align: end;
+            position: absolute;
+            width: 100%;
+            top: 0;
+        }
+    }
+}
