@@ -1,0 +1,19 @@
+.banner {
+
+    position: relative;
+
+    .banner-right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -10;
+        background-image: url(../img/tom-crew-5HRCkrSs9Dk-unsplash.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .banner-left{
+        height: 100vh;
+    }
+}
