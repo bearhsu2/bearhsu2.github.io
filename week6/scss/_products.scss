@@ -16,18 +16,12 @@
             top: 0;
         }
     }
-}
 
-.slider {
-    // width: 300px;
-    // height: 300px;
-    display: flex;
-    overflow-x: auto;
-}
-.slide {
-    // width: 300px;
-    flex-shrink: 0;
-    // height: 100%;
-    // margin-right: 10px;
-    // background-color: red;
+    .slider {
+        display: flex;
+        overflow-x: auto;
+        .slide {
+            flex-shrink: 0;
+        }
+    }
 }
