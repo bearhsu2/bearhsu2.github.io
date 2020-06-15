@@ -1,0 +1,27 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "variables"; // 複製一份 variable 來覆蓋
+@import "../node_modules/bootstrap/scss/mixins";
+// Option
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// customized
+@import "base";
+@import "header";
+@import "banner";
+@import "director";
+@import "products";
+@import "footer";
+
+.debug-bordered {
+    border: 1px solid black;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 29px;
+}

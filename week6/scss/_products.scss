@@ -1,0 +1,27 @@
+.products {
+    .product {
+        position: relative;
+
+        img {
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .tag {
+            // position: absolute;
+
+            text-align: end;
+            position: absolute;
+            width: 100%;
+            top: 0;
+        }
+    }
+
+    .slider {
+        display: flex;
+        overflow-x: auto;
+        .slide {
+            flex-shrink: 0;
+        }
+    }
+}
